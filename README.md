@@ -31,7 +31,7 @@ All products, merchants and receipts are fictional. The examples use reserved `.
 
 Session state exists only in memory. It can disappear on a server restart or a serverless cold start, and it is not shared between server instances. Duplicate protection is limited to one running instance. Real purchases would require durable state, authentication, a reviewed provider integration and reliable transaction reconciliation. Do not use this prototype for real purchases.
 
-The public preview uses the same policy code with a small serverless wrapper. No credentials or external service calls are required. The local server exposes only an explicit list of public assets.
+The deployment adapter uses the same policy code with a small serverless wrapper. A hosted preview is not available yet. No credentials or external service calls are required for the simulation. The local server exposes only an explicit list of public assets.
 
 Daniel Sultan is the project owner. AI assistance produced substantial implementation and application material.
 
